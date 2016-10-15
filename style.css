@@ -41,10 +41,10 @@ html {
 
 .content .links {
   margin-bottom: 0.5em;
-  font-size: 2em;
+  font-size: 2.5vw;
   width: 100%;
 }
-  @media (max-device-width: 768px) {
+@media (max-device-width: 768px) {
     .content .links {
     font-size: 5em; }
 }
