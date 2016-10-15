@@ -1,9 +1,12 @@
 body {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  opacity:0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s; /* Safari */
 }
 html {
-<!--background: url(images/profile1.jpg) no-repeat center center fixed;-->
+  background: url(images/profile2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,13 +16,14 @@ html {
 
 .content {
   float: left;
-  width: 55%;
+  width: 45%;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 0px;
-  padding-left: 80px;
+  padding-left: 50px;
   text-align: left;
   overflow: auto;
+
 }
 
 #info {
@@ -36,7 +40,7 @@ html {
 }
 
 .content .links {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   font-size: 2em;
   width: 100%;
 }
@@ -53,7 +57,9 @@ html {
   text-decoration: none; }
 
 .content a:hover {
-  font-style: italic; }
+  font-style: italic;
+  font-weight: bold;
+}
 .mail {
   text-decoration: none;
   color: #000000;
