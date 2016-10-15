@@ -1,7 +1,6 @@
 body {
-  font-family: 'Lato', sans-serif;
-
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
 }
 html {
   background: url(images/profile1.jpg) no-repeat center center fixed;
@@ -14,31 +13,31 @@ html {
 
 .content {
   float: left;
-  width: 50%;
+  width: 48%;
   margin: auto;
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 0px;
   padding-left: 80px;
   text-align: left;
   overflow: auto;
 }
 
 #info {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 #project {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 #activity {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 #fun {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .content .links {
-  margin-bottom: 1em;
-  font-size: 2.2em; }
+  margin-bottom: 2em;
+  font-size: 2em; }
   @media (max-device-width: 768px) {
     .content .links {
     font-size: 5em; }
@@ -56,7 +55,7 @@ html {
 .mail {
   text-decoration: none;
   color: #000000;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .northwestern {
     color: #4E2A84;
