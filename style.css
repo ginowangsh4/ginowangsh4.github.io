@@ -7,7 +7,7 @@ body {
   -webkit-transition: opacity 3s; /* Safari */
 }
 html {
-    background: url('images/profile2.jpg') no-repeat 50% 50% fixed; 
+    background: url('images/profile2.jpg') no-repeat 50% 50% fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,4 +79,7 @@ html {
 }
 .epic {
   color: #d52b34;
+}
+.nsh {
+  color: #3a3a3c;
 }
